@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Number Sign Checker</h1>
+
+    Enter a number:
+    <input type="text" name="" id="num">
+
+    <button onclick="check()">Check</button>
+    
+    <p id="p1"></p>
+
+    <script>
+        function check(){
+
+        let num = parseInt(document.getElementById("num").value);
+
+
+            if(num > 0){
+
+                p1 = `The number ${num} is positive`;
+
+
+            }
+            else if(num  == 0){
+
+                p1 = `The number ${num} is zero`;
+
+
+            }
+            else{
+
+                p1 = `The number ${num} is negative`;
+
+            }
+
+            
+            document.getElementById("p1").innerHTML = p1; 
+        }
+
+    </script>
+    
+</body>
+</html>
