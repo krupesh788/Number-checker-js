@@ -1,4 +1,5 @@
 # number-checker-js
  check number positive,negative or zero
  
-![number positive output](https://github.com/krupesh788/number-checker-js/assets/71176180/4e9c4c66-e8f3-402f-978f-ff3b06f1ff80)
+![Numbersign](https://github.com/krupesh788/Number-checker-js/assets/71176180/1ad26fcf-5dbd-420e-b3c0-bf7ff5b7735e)
+
